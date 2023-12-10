@@ -1,0 +1,17 @@
+Package: generateFinCorMatrix
+Type: Package
+Title: Synthetic Financial Correlation Matrix Generation
+Imports:MASS,corrplot 
+Version: 0.0.0.9000
+Author: Mahdi Farahbakhsh [aut, cre]
+Maintainer: Mahdi Farahbakhsh <mahdi.farahbakhsh@tamu.edu>
+Description: The Correlation Matrices that arise in financial markets appear to
+    have some special properties, which makes it a little bit challenging to be
+    able to generate them artificially in a way that hold all of these 
+    properties. Some statistical methods have been proposed. In this package we
+    have implemented some of the methods. We also implemented a few methods for
+    verifying the properties. 
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
