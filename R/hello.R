@@ -60,5 +60,3 @@
 #   vine_multi_mx = array(c(vine_multi_mx, vine_mx), dim = c(40, 40, i))
 # }
 # plot_pairwise_distribution(vine_multi_mx)
-#
-
