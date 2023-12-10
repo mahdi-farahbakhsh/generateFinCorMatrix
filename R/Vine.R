@@ -1,6 +1,8 @@
 
 
 #' Generate matrix using the statistical method of D-vine
+#' here is the Reference: Generating random correlation matrices based partial correlations" by Harry Joe.
+#' https://www.sciencedirect.com/science/article/pii/S0047259X05000886
 #'
 #' @param dim an integer>3 showing the number of dimensions
 #'

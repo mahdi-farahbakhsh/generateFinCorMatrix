@@ -1,4 +1,7 @@
 #' Generating random correlation matrix using extended onions method
+#' You can find the reference here: Reference: "Generating random correlation matrices based on vines and extended onion method"
+#' by Daniel Lewandowski, Dorota Kurowicka, Harry Joe.
+#' https://www.sciencedirect.com/science/article/pii/S0047259X09000876
 #'
 #' @param dim an integer>3 showing the number of dimensions for the correlation matrix
 #' @param eta The eta parameter for onion method

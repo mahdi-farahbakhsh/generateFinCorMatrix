@@ -1,4 +1,7 @@
 #' Generate Random Correlation Matrix Using Hierarchical Correlation Block Model
+#' You can find the reference for this method here: Reference:  `Marti, G., Andler, S., Nielsen, F. and Donnat, P., 2016.
+#' Clustering financial time series: How long is enough?. arXiv preprint arXiv:1603.04017.
+#' <https://www.ijcai.org/Proceedings/16/Papers/367.pdf>`_
 #'
 #' @param dim an integer indicating the dimension of correlation matrix
 #' @param block an integer indicating the number of blocks in each recursion
