@@ -2,7 +2,10 @@
 % Please edit documentation in R/HCBM.R
 \name{generate_hcbm_correlation_matrix}
 \alias{generate_hcbm_correlation_matrix}
-\title{Generate Random Correlation Matrix Using Hierarchical Correlation Block Model}
+\title{Generate Random Correlation Matrix Using Hierarchical Correlation Block Model
+You can find the reference for this method here: Reference:  `Marti, G., Andler, S., Nielsen, F. and Donnat, P., 2016.
+Clustering financial time series: How long is enough?. arXiv preprint arXiv:1603.04017.
+<https://www.ijcai.org/Proceedings/16/Papers/367.pdf>`_}
 \usage{
 generate_hcbm_correlation_matrix(
   dim,
@@ -31,6 +34,9 @@ a random correlation matrix
 }
 \description{
 Generate Random Correlation Matrix Using Hierarchical Correlation Block Model
+You can find the reference for this method here: Reference:  `Marti, G., Andler, S., Nielsen, F. and Donnat, P., 2016.
+Clustering financial time series: How long is enough?. arXiv preprint arXiv:1603.04017.
+<https://www.ijcai.org/Proceedings/16/Papers/367.pdf>`_
 }
 \examples{
 generate_hcbm_correlation_matrix(dim = 50, block = 3, depth = 2)

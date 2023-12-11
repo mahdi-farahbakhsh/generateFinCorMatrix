@@ -2,7 +2,9 @@
 % Please edit documentation in R/Vine.R
 \name{generate_from_dvine}
 \alias{generate_from_dvine}
-\title{Generate matrix using the statistical method of D-vine}
+\title{Generate matrix using the statistical method of D-vine
+here is the Reference: Generating random correlation matrices based partial correlations" by Harry Joe.
+https://www.sciencedirect.com/science/article/pii/S0047259X05000886}
 \usage{
 generate_from_dvine(dim)
 }
@@ -14,6 +16,8 @@ a random dim*dim correlation matrix
 }
 \description{
 Generate matrix using the statistical method of D-vine
+here is the Reference: Generating random correlation matrices based partial correlations" by Harry Joe.
+https://www.sciencedirect.com/science/article/pii/S0047259X05000886
 }
 \examples{
 a = generate_from_dvine(dim = 3)
